@@ -1,0 +1,30 @@
+---
+title: "Year 2017"
+author: "Elena García Lara"
+date: "January 2, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+This file contains the expenses of 2017 (by ING bank only)
+
+## Part 1
+```{r echo = F}
+library(knitr)
+read_chunk("expenses.R")
+```
+
+Graph of overall expenses.
+
+
+```{r echo=F}
+<<part1>>
+```
+
+Table with detailed expenses.
+
+```{r echo=F}
+<<part2>>
+```
